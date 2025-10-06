@@ -3,6 +3,8 @@
   --special-font-size: 16px;
   --purple-color: rgb(128, 61, 243);
   --aqua-color: rgb(21, 201, 251);
+  --button-first-color: rgb(234, 231, 231);
+  --button-second-color: rgb(26, 41, 73);
 }
 body{
   margin: 0;
@@ -87,3 +89,42 @@ p{
   text-decoration: none;
   font-weight: 500;
 }
+
+.primary-button{
+  background-color: var(--button-second-color);
+  color:var(--button-first-color);
+  border-radius: 20px;
+  padding: 8px 16px;
+  
+}
+
+button{
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.1s;
+  letter-spacing: 0.75px;
+}
+button:hover{
+  opacity: 0.75;
+}
+
+.secondary-button{
+  background-color: white;
+  color: var(--button-second-color);
+}
+
+.with-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.with-icon > img{
+  transition: transform 0.15s linear;
+}
+.with-icon:hover > img{
+  transform: translateX(4px);
+}
+
