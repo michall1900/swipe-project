@@ -84,10 +84,17 @@ p{
   line-height: 25px;
 }
 
-.purple-link{
-  color: var(--purple-color);
+.purple{
+  color: var(--purple-color)
+}
+.link{
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: black;
 }
 
 .primary-button{
