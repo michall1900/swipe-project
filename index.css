@@ -81,3 +81,9 @@ p{
 .subtitle-aqua{
   line-height: 25px;
 }
+
+.purple-link{
+  color: var(--purple-color);
+  text-decoration: none;
+  font-weight: 500;
+}
