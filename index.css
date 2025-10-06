@@ -1,0 +1,83 @@
+:root{
+  --titles-font: "Anek Telugu", sans-serif;
+  --special-font-size: 16px;
+  --purple-color: rgb(128, 61, 243);
+  --aqua-color: rgb(21, 201, 251);
+}
+body{
+  margin: 0;
+  padding:0;
+  font-family: "Roboto", sans-serif;;
+}
+h1{
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 108px;
+  letter-spacing: -1px;
+}
+h2{
+  font-size: 50px;
+  line-height: 75px;
+}
+h3{
+  font-size: 40px;
+}
+
+h4{
+  font-size: 32px;
+}
+
+h5{
+  font-size: 28px;
+}
+
+h6{
+  font-size: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: var(--titles-font);
+  margin: 0;
+  padding: 0;
+  
+}
+
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: 500;
+}
+
+p{
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.secondary-text,
+.subtitle-purple,
+.subtitle-aqua{
+  font-size: var(--special-font-size);
+}
+.secondary-text{
+  color: rgb(160, 176, 175);
+  line-height: 16px;
+}
+
+.subtitle-purple{
+  color: var(--purple-color)
+}
+
+.subtitle-aqua{
+  color: var(--aqua-color)
+}
+
+.subtitle-purple,
+.subtitle-aqua{
+  line-height: 25px;
+}
