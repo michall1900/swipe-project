@@ -1,0 +1,156 @@
+:root{
+  --titles-font: "Anek Telugu", sans-serif;
+  --special-font-size: 16px;
+  --light-purple-color:#6962f7;
+  --dark-purple-color: #7000ff;
+  --aqua-color: rgb(21, 201, 251);
+  --button-first-color: rgb(234, 231, 231);
+  --grey-color: #adbdcc;
+  --button-second-color: #0a2540;
+  --p-height: 26px;
+  --text-size: 18px;
+  --h1-size: 82px;
+  --h1-letter-spacing: -2px;
+  --h1-line-height: 108px;
+  --h2-font-size: 44px;
+  --h2-line-height: 60px;
+  --h2-letter-spacing: -1.75px;
+  --h3-font-size: 22px;
+  --h4-font-size: 20px;
+  --h5-font-size: 18px;
+  --h6-font-size: 16px;
+  --subtitle-size: 17px;
+}
+body{
+  font-size: var(--text-size);
+  margin: 0;
+  padding:0;
+  font-family: "Roboto", sans-serif;;
+}
+h1{
+  font-size: var(--h1-size);
+  font-weight: 600;
+  line-height: var(--h1-line-height);
+  letter-spacing: var(--h1-letter-spacing);
+}
+h2{
+  font-size: var(--h2-font-size);
+  font-weight: 600;
+  line-height: var(--h2-line-height);
+  letter-spacing: var(--h2-letter-spacing);
+}
+h3{
+  font-size: var(--h3-font-size);
+}
+
+h4{
+  font-size: var(--h4-font-size);
+}
+
+h5{
+  font-size: var(--h5-font-size);
+}
+
+h6{
+  font-size: var(--h6-font-size);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: var(--titles-font);
+  margin: 0;
+  padding: 0;
+  
+}
+
+h3,
+h4,
+h5,
+h6{
+  font-weight: 500;
+}
+
+p{
+
+  line-height: var(--p-height);
+}
+
+.secondary-text{
+  width: 250px;
+  font-size: var(--special-font-size);
+  color: var(--grey-color);
+  line-height: 18px;
+  letter-spacing: -0.6px;
+}
+
+.subtitle-purple{
+  font-size: var(--subtitle-size);
+  font-family: var(--titles-font);
+  color: var(--light-purple-color);
+  font-weight: 500;
+  /* letter-spacing: -0.35px; */
+  /* word-spacing: 1.5px; */
+}
+
+.subtitle-aqua{
+  color: var(--aqua-color)
+}
+
+.subtitle-purple,
+.subtitle-aqua{
+  line-height: 25px;
+}
+
+
+.link{
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  color: var(--light-purple-color)
+}
+
+.link:hover {
+  color: black;
+}
+
+.primary-button{
+  background-color: var(--button-second-color);
+  color:var(--button-first-color);
+  border-radius: 20px;
+  padding: 9px 17px;
+  
+}
+
+button{
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.1s;
+  letter-spacing: 0.75px;
+}
+button:hover{
+  opacity: 0.75;
+}
+
+.secondary-button{
+  background-color: white;
+  color: var(--button-second-color);
+}
+
+.with-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.with-icon > img{
+  transition: transform 0.15s linear;
+}
+.with-icon:hover > img{
+  transform: translateX(4px);
+}
+
